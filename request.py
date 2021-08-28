@@ -1,3 +1,6 @@
+"""
+This file is used to demonstrate the capability to invoke the Flask based WebAPI locally, and passing the features via a url, w/o having to render and access the index.html via a browser
+"""
 import requests
 
 url = 'http://localhost:5000/predict_api'
