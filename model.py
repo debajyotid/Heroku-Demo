@@ -22,8 +22,8 @@ X['experience'] = X['experience'].apply(lambda x : convert_to_int(x))
 
 y = dataset.iloc[:, -1]
 
-#Splitting Training and Test Set
-#Since we have a very small dataset, we will train our model with all availabe data.
+#We are not splitting the dataset into a Training and Test Set.
+#Rather, considering the small size of the dataset, we will train our model with all availabe data.
 
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
