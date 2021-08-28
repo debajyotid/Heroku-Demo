@@ -19,3 +19,9 @@ Using Flask, we can also execute the model locally and provide the i/p features 
 
 The web-app is hosted at:
 https://deb-simplesalarypred-demo.herokuapp.com
+
+## I had faced issues in direct deployment from krishnaik06/Heroku-Demo due to mismatch in sklearn version provided in requirements.txt and the version used to build the model (and saved as model.pkl).
+## I rebuild the model in my local system and provided my local system sklearn version (sklearn.__version__) in requirements.txt
+## The error was as: ModuleNotFoundError: No module named 'sklearn.linear_model.base'
+## This was available in Heroku CLI & I used the command:$ heroku logs --app deb-simplesalarypred-demo
+## to check the deployment logs. Here deb-simplesalarypred-demo is my Heroku app name
