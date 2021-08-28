@@ -1,4 +1,7 @@
 # Heroku-Demo
+#This project is forked from https://github.com/krishnaik06/Heroku-Demo.
+#I have added more comments and have updated the below Readme to make the files more readable & the overall process more understandable.
+
 In this demonstration, we show how we can leverage Heroku PaaS for our ML model deployment using a Flask WebAPI.
 
 Our ML model is a simple salary predictor and takes the below 3 i/p as features, along with the salary drawn as the target:
