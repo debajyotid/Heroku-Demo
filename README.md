@@ -8,6 +8,7 @@ Our ML model is a simple salary predictor and takes the below 3 i/p as features,
 1. experience
 2. test_score
 3. interview_score
+
 This data is availabe in a csv file called 'hiring.csv'.
 
 We then perform a simple LinearRegression to predict salaries for employees for whom we have only the above features, but not the actual salary. Thus, this is a Supervised Learning problem.
