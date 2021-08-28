@@ -16,3 +16,6 @@ We then perform a simple LinearRegression to predict salaries for employees for 
 Once the model is trained, we save it as a .pkl file using pickle. This model is then deployed on Heroku using a Flask web-service, and a html page is provided to capture the i/p features and display the predicted salary.
 
 Using Flask, we can also execute the model locally and provide the i/p features either using the webpage hosted on our local m/c or by passing the features via a URL request.
+
+The web-app is hosted at:
+https://deb-simplesalarypred-demo.herokuapp.com
